@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Renfair",
+    "slug": "renfair-explore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/knight3.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/renfair2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyD0Rbyb7A0xPl3WjN_ss9Q1DoxJ_5an4Js"
+      }
+    },
+    "scheme": "https",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD0Rbyb7A0xPl3WjN_ss9Q1DoxJ_5an4Js"
+        }
+      },
+      "package": "com.test.test"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Explore Place to use your location."
+        }
+      ]
+    ]
+  }
+}
